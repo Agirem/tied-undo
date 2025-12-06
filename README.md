@@ -1,5 +1,27 @@
-# Vue 3 + Vite
+# Timed Undo Interaction
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A "Timed Undo" interaction component inspired by [Nitish Khagwal](https://twitter.com/nitishkmrk).
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Built with Vue 3 + Vite + GSAP.
+
+## Description
+
+This component implements a smooth account deletion micro-interaction featuring:
+- Button morphing animation (expansion/shrinking)
+- 10-second timer with cancellation option
+- Vertical slide animations for text transitions
+- Smooth fade in/out of undo icon and timer badge
+
+## Technologies
+
+- Vue 3 with `<script setup>`
+- Vite
+- GSAP (GreenSock Animation Platform)
+- Tailwind CSS
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
